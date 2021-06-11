@@ -5,41 +5,66 @@
         <meta charset="utf-8" />
         <meta name="author" content="Donald Reagin" />
         <meta name="description" content="A portfolio for Donald Reagin" />
+        <link rel="stylesheet" href="portfolio.css">
     </head>
     <body>
-        <div>
-            <h1>Donald Reagin</h1>
-            <img src="https://live.staticflickr.com/2573/4134139168_6165e43b08_b.jpg" alt="Placeholder picture for me">
-            <p>Respectfulness, professionalism, individualism, and creativity are primary traits I carry through life</p>
-        </div>
-        <div>
-            <h4>I can be contacted at:</h4>
-            <ul>
-                <li><em>don.rage616@gmail.com</em></li>
-                <li><em>404-665-6735</em></li>
-            </ul>
-        </div>
-        <div>
-            <h4>Previous Workplace Experience:</h4>
-            <ul>
-                <li><b>Food Industry</b></li>
-                <li><b>Customer Service</b></li>
-                <li><b>Construction</b></li>
-            </ul>
-        </div>
-        <div>
-            <h4>Education Includes:</h4>
-            <ul>
-                <li>TrueCoders</li>
-                <li>GED</li>
-            </ul>
-        </div>
-        <div>
-            <h4>Extra Info</h4>
-            <ul>
-                <li>???</li>
-                <li>???</li>
-            </ul>
-        </div>
+        <main>
+            <section id="s1">
+                <h1>Donald Reagin</h1>
+                <img src="https://live.staticflickr.com/2573/4134139168_6165e43b08_b.jpg" alt="Placeholder picture for me">
+                <p>Respectfulness, Professionalism, Individualisim, Creativity</p>
+            </section>
+            <section class="sec">
+                <h4>I can be contacted at:</h4>
+                <ul>
+                    <li><em>don.rage616@gmail.com</em></li>
+                    <li><em>404-665-6735</em></li>
+                </ul>
+            </section>
+            <section id="s2">
+                <h4>Previous Workplace Experience:</h4>
+                <ul>
+                    <li><b>Food Industry</b></li>
+                    <li><b>Customer Service</b></li>
+                    <li><b>Construction</b></li>
+                </ul>
+            </section>
+            <section id="s3">
+                <h4>Education Includes:</h4>
+                <ul>
+                    <li>TrueCoders</li>
+                    <li>GED</li>
+                </ul>
+            </section>
+            <section class="sec">
+                <h4>Extra Info</h4>
+                <ul>
+                    <li>???</li>
+                    <li>???</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Contact Me</h3>
+                <form>
+                    <div>
+                        
+                        <input type="text" name="name" id="name" title="Your Name" aria-label="Name" placeholder="Your Name Here">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label for="newslettersignup">Sign up for news letter</label>
+                        <input type="checkbox" name="newslettersignup" id="newslettersignup">
+                    </div>    
+                    <input type="submit" value="send">
+                </form>
+            </section>
+        </main>
     </body>
 </html>

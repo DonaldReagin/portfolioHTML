@@ -1,0 +1,49 @@
+* {
+    border: 1px solid black;
+    background-color:indigo;
+}
+
+/* this looks like a broken site from 1999 */
+p, h1, h4, li {
+    font-family: fantasy;
+}
+
+h1 {
+    border-top: 10px dashed green;
+    font-size: 64;
+    color:tomato;
+}
+
+html {
+    text-align: center;
+}
+
+h4 {
+    color:goldenrod
+}
+
+img {
+    border: 5px dashed pink;
+    width: auto;
+    height: 200px;
+}
+
+li {
+    list-style: none;
+    padding-right: 40px;
+    background-color: turquoise;
+    color: brown;
+}
+
+#s1 {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#s3 {
+    background-color: black;
+}
+
+.sec {
+    color: wheat;
+}
